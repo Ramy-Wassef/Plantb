@@ -1,0 +1,277 @@
+/* Global */
+
+.container{
+width: 85%;
+margin: auto;
+}
+p{line-height: 1.7;}
+button{
+background-color: orange;
+color: black;
+padding: 10px;
+border: 1px solid orange;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Header */
+
+.top{
+background-color: #eee;
+overflow: hidden;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.top img{
+float: left;
+width: 200px;
+height: 100px;
+}
+.top ul{
+list-style: none;
+float: left;
+padding-top: 15px;
+}
+.top li{
+display: inline;
+padding-right: 20px;
+font-size: 20px;
+}
+.top span{
+float: right;
+padding-top: 30px;
+}
+
+/* join */
+
+.img1{
+overflow: hidden;
+background-color: black;
+height: auto;
+width: 100%;
+padding-bottom: 100px;
+padding-top: 100px;
+margin-bottom: 130px;
+}
+.content{
+float: left;
+}
+.content p{
+color: white;
+font-size: 24px;
+}
+
+/* success */
+
+.success{
+overflow: hidden;
+text-align: center;
+}
+.success h2{
+padding-bottom: 50px;
+}
+.success span{
+font-size: 20px;
+}
+.p1,.p2,.p3{
+float: left;
+width: 30%;
+}
+.p1,.p2{
+margin-right: 3%;
+}
+.success span, .success p{
+color: dimgray;
+}
+.success img{
+width: 100%;
+margin-bottom: 30px;
+}
+.success button{
+margin-top: 50px;
+}
+
+/* recipies */
+
+.recipies{
+background-color: black;
+width: 100%;
+height: auto;
+margin-top: 130px;
+margin-bottom: 130px;
+overflow: hidden;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.cont2{
+float: left;
+}
+
+.cont2 h2,.cont2 p{
+color: white;
+}
+.cont2 button{
+margin-top: 50px;
+}
+
+/* challenge */
+
+.join{
+text-align: center;
+margin-bottom: 100px;
+overflow: hidden;
+}
+
+.join h2{
+padding-bottom: 50px;
+}
+.i2,.i3,.i4{
+float: left;
+width: 30%;
+margin-bottom: 5%;
+}
+.i2,.i3{
+margin-right: 3%;
+}
+.join img{
+    width: 100%;
+}
+.jbtn{
+clear: both;
+text-align: center;
+}
+.jbtn button{
+    margin-top: 15%;
+}
+
+/* Blog */
+
+.blog{
+text-align: center;    
+overflow: hidden;
+margin-bottom: 150px;
+}
+
+.blog img{
+width: 100%;
+height: 150px;
+}
+.d1,.d2,.d3,.d4{
+float: left;
+width: 23%;
+margin-bottom: 70px;
+}
+.d1,.d2,.d3{
+margin-right: 2.5%;
+}
+#but{
+clear: both;
+text-align: center;
+}
+
+/* contact */
+
+.contact{
+overflow: hidden;
+background-color: #41B29B;
+padding-bottom: 5%;
+padding-top: 5%;
+}
+.c1,.c2,.c3{
+width: 30%;
+float: left;
+}
+.c1,.c2{
+margin-right: 3%;
+}
+td{
+font-size: 14px;
+}
+table input,textarea{
+    width: 100%
+}
+.footer{
+    text-align: center;
+    background-color: #41B29B;
+    padding-bottom: 5%;
+}
+
+/* media query */
+
+/* Header */
+
+@media (max-width:876px){
+    .top{
+        text-align: center;
+    }
+    .top img , .top ul, .top li, .top span{
+        float: none;
+display: block;
+        margin: auto;
+    }  
+    .top li{
+        padding: 2%;
+        border: 2px solid white;
+    }
+}
+
+/* success */
+
+@media (max-width:961px){
+    .p1,.p2,.p3{
+        width: 45%;
+        margin-right: 4%;
+    }
+    .p3{
+        margin-right: 40%;
+    }
+    
+}
+@media (max-width:612px){
+    .p1,.p2,.p3{
+        width: 100%;
+    }
+}
+
+/* Blog */
+
+@media (max-width:903px){
+    .d1,.d2,.d3,.d4{
+        width: 30%
+    }
+    .d1,.d2,.d3{
+        margin-right: 3%;
+    }
+}
+@media (max-width:706px){
+    .d1,.d2,.d3,.d4{
+        width: 45%;
+    }
+    .d1,.d2,.d3{
+        margin-right: 4%;
+    }
+}
+@media (max-width:438px){
+    .d1,.d2,.d3,.d4{
+        width: 100%;
+    }
+}
+
+/* contact */
+
+@media (max-width:1194px){
+    .c1,.c2,.c3{
+        width: 45%;
+    }
+    .c1,.c2{
+        margin-right: 4%;
+    }
+    .c3{
+        clear: both;
+    }
+}
+@media (max-width:492px){
+    .c1,.c2,.c3{
+        width: 100%;
+    }
+}
